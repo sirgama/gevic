@@ -1,10 +1,10 @@
 import React from 'react'
-import Navbar from '../components/Navbar'
+import Navigation from '../components/Navigation'
 
 export default function Landing() {
   return (
     <div>
-      <Navbar />
+      <Navigation />
     </div>
   )
 }
