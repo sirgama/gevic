@@ -64,7 +64,7 @@ export default function Navigation() {
   );
 
   return (
-    <Navbar className="mx-auto max-w-screen-xl py-2 px-2 lg:px-2 lg:py-4 bg-transparent border-none ">
+    <Navbar className="mx-auto max-w-screen-2xl py-2 px-2 lg:px-2 lg:py-4 bg-transparent border-none ">
     <div className="container-fluid mx-auto flex items-center justify-between text-white">
       <Typography
         as="a"
