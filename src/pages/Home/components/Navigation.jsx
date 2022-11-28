@@ -19,64 +19,64 @@ export default function Navigation() {
   }, []);
 
   const navList = (
-    <ul className="mb-4 mt-2 flex flex-col gap-2 lg:mb-0 lg:mt-0 lg:flex-row lg:items-center lg:gap-6">
+    <ul className="mb-4 mt-2 flex flex-col items-center gap-2 lg:mb-0 lg:mt-0 lg:flex-row lg:items-center md:gap-10">
       <Typography
         as="li"
         variant="small"
-        color="blue-gray"
+        color="gray-400"
         className="p-1 font-normal"
       >
-        <a href="#" className="flex items-center">
-          Pages
+        <a href="#home" className="flex items-center font-bold text-gray-300 text-sm">
+          Home
         </a>
       </Typography>
       <Typography
         as="li"
         variant="small"
-        color="blue-gray"
+        color="white"
         className="p-1 font-normal"
       >
-        <a href="#" className="flex items-center">
-          Account
+        <a href="#about" className="flex items-center font-bold text-gray-300 text-sm">
+          About
         </a>
       </Typography>
       <Typography
         as="li"
         variant="small"
-        color="blue-gray"
+        color="white"
         className="p-1 font-normal"
       >
-        <a href="#" className="flex items-center">
-          Blocks
+        <a href="#service" className="flex items-center font-semibold text-gray-300 text-sm">
+          Service
         </a>
       </Typography>
       <Typography
         as="li"
         variant="small"
-        color="blue-gray"
+        color="white"
         className="p-1 font-normal"
       >
-        <a href="#" className="flex items-center">
-          Docs
+        <a href="#office" className="flex items-center font-bold text-gray-300 text-sm">
+          Office
         </a>
       </Typography>
     </ul>
   );
 
   return (
-    <Navbar className="mx-auto max-w-screen-xl py-2 px-4 lg:px-8 lg:py-4">
-    <div className="container mx-auto flex items-center justify-between text-blue-gray-900">
+    <Navbar className="mx-auto max-w-screen-xl py-2 px-2 lg:px-2 lg:py-4 bg-transparent border-none ">
+    <div className="container-fluid mx-auto flex items-center justify-between text-white">
       <Typography
         as="a"
         href="#"
         variant="small"
         className="mr-4 cursor-pointer py-1.5 font-normal"
       >
-        <span>Material Tailwind</span>
+        <img src={Logo}  />
       </Typography>
       <div className="hidden lg:block">{navList}</div>
-      <Button variant="gradient" size="sm" className="hidden lg:inline-block">
-        <span>Buy Now</span>
+      <Button  size="sm" className="hidden lg:inline-block rounded-full sm:px-6 sm:py-3 !bg-orange-900">
+        <span className='normal-case text-sm text-gray-200'>Get in touch</span>
       </Button>
       <IconButton
         variant="text"
@@ -118,8 +118,8 @@ export default function Navigation() {
     </div>
     <MobileNav open={openNav}>
       {navList}
-      <Button variant="gradient" size="sm" fullWidth className="mb-2">
-        <span>Buy Now</span>
+      <Button  size="sm" fullWidth className=" rounded-full sm:px-6 sm:py-3 !bg-orange-900">
+        <span className='normal-case text-sm text-gray-200'>Get in touch</span>
       </Button>
     </MobileNav>
   </Navbar>
