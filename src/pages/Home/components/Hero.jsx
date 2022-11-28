@@ -25,7 +25,7 @@ export default function Hero() {
         </div>
       </div>
       <div className="mx-auto max-w-screen-2xl py-2 px-2 lg:px-2 lg:py-4 md:mt-10">
-        <div className="w-full flex flex-col md:flex-row">
+        <div className="w-full flex flex-col md:flex-row justify-between">
           <div className="md:w-1/4">
             <div className="w-full  h-80 bg-gray-900 rounded-3xl flex flex-col justify-around">
                 <div className="flex flex-row justify-between mx-6 text-gray-500 font-semibold">
@@ -41,9 +41,9 @@ export default function Hero() {
                 </div>
             </div>
           </div>
-          <div className="w-full md:w-3/4 md:flex flex-col justify-center align-middle">
+          <div className="w-full md:w-3/4 md:flex flex-row ">
             
-            <img src={hero} alt="" className=" h-96" />
+            <img src={hero} alt="" className=" h-96 md:mx-auto " />
           </div>
           
         </div>
