@@ -41,7 +41,7 @@ export default function Hero() {
                 </div>
             </div>
           </div>
-          <div className="w-full md:w-3/4 md:flex flex-row ">
+          <div className="w-full md:w-2/3 md:flex flex-row justify-between">
             
             <img src={hero} alt="" className=" h-96 md:mx-auto " />
           </div>
