@@ -36,7 +36,7 @@ export default function Hero() {
                     <p className="text-gray-500 p-3 text-sm">Shipment & Delivery Tracking</p>
                     <p className="text-gray-500 p-3 text-sm">Conveniently keep track of your ordered supplies, get delivery timelines and view invoices and receipts from anywhere with our dashboard. </p>
                     <button className="bg-orange-800 py-2 px-6   md:py-3 md:px-8 md:mx-auto my-4 rounded-xl text-white uppercase text-xs">
-              Send inquiry
+             Go to dashboard
             </button>
                 </div>
             </div>
