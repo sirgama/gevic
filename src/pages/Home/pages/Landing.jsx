@@ -1,5 +1,6 @@
 import React from 'react'
 import About from '../components/About'
+import ContactForm from '../components/ContactForm'
 import CTA from '../components/CTA'
 import Hero from '../components/Hero'
 import Map from '../components/Map'
@@ -16,6 +17,7 @@ export default function Landing() {
       <About />
       <Service />
         <CTA />
+        <ContactForm />
     </div>
   )
 }
